@@ -1,0 +1,18 @@
+[
+    {
+        "keys": ["shift+j"],
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 10,
+            "cmd": "up"
+        }
+    },
+    {
+        "keys": ["shift+k"],
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 10,
+            "cmd": "down"
+        }
+    }
+    ]
