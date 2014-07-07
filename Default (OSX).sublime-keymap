@@ -125,7 +125,7 @@
     }]
   },
 
-  //multi cursor with super+k, super+j
+  // multi cursor with super+k, super+j
   {
     "keys": [
       "super+k"
@@ -289,19 +289,19 @@
   },
 
   //attempting to jump lines faster
-  {
-    "keys": ["shift+k"],
-    "command": "scroll_lines",
-    "args": {
-      "amount": 5.0
-    }
-  }, {
-    "keys": ["shift+j"],
-    "command": "scroll_lines",
-    "args": {
-      "amount": -5.0
-    }
-  },
+  // {
+  //   "keys": ["shift+k"],
+  //   "command": "scroll_lines",
+  //   "args": {
+  //     "amount": 5.0
+  //   }
+  // }, {
+  //   "keys": ["shift+j"],
+  //   "command": "scroll_lines",
+  //   "args": {
+  //     "amount": -5.0
+  //   }
+  // },
 
   // bracket matching
   {
@@ -372,5 +372,7 @@
     }]
   },
   { "keys": ["shift+q"], "command": "nextBuildError" },
-  { "keys": ["ctrl+shift+q"], "command": "prevBuidError" }
+  { "keys": ["ctrl+shift+q"], "command": "prevBuidError" },
+  { "keys": ["ctrl+,"], "command": "move_to_neighboring_group", "args": {"forward": false} },
+  { "keys": ["ctrl+."], "command": "move_to_neighboring_group" }
 ]
