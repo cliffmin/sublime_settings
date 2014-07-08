@@ -158,7 +158,7 @@
     }]
   },
 
-  // 'i,i ' for es
+  // ' j,k' for es
   {
     "keys": ["j", "k"],
     "command": "exit_insert_mode",
@@ -206,6 +206,60 @@
     }]
   }, {
     "keys": ["j", "k"],
+    "command": "exit_auto_complete_and_insert_mode",
+    "context": [{
+      "key": "auto_complete_visible",
+      "operator": "equal",
+      "operand": true
+    }]
+  },
+  {
+    "keys": ["k", "j"],
+    "command": "exit_insert_mode",
+    "context": [{
+      "key": "setting.command_mode",
+      "operand": false
+    }, {
+      "key": "setting.is_widget",
+      "operand": false
+    }]
+  }, {
+    "keys": ["k", "j"],
+    "command": "exit_visual_mode",
+    "context": [{
+      "key": "setting.command_mode"
+    }, {
+      "key": "num_selections",
+      "operand": 1
+    }, {
+      "key": "selection_empty",
+      "operator": "equal",
+      "operand": false,
+      "match_all": false
+    }]
+  }, {
+    "keys": ["k", "j"],
+    "command": "hide_auto_complete",
+    "context": [{
+      "key": "auto_complete_visible",
+      "operator": "equal",
+      "operand": true
+    }]
+  }, {
+    "keys": ["k", "j"],
+    "command": "vi_cancel_current_action",
+    "context": [{
+      "key": "setting.command_mode"
+    }, {
+      "key": "selection_empty",
+      "operator": "equal",
+      "operand": true,
+      "match_all": false
+    }, {
+      "key": "vi_has_input_state"
+    }]
+  }, {
+    "keys": ["k", "j"],
     "command": "exit_auto_complete_and_insert_mode",
     "context": [{
       "key": "auto_complete_visible",
