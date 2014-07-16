@@ -1,18 +1,19 @@
 {
 	"installed_packages":
 	[
-		"Alignment",
 		"All Autocomplete",
 		"AngularJS",
 		"Auto Semi-Colon",
-		"AutoSelect",
+		"AutoFileName",
 		"BracketHighlighter",
+		"Browser Refresh",
 		"CSS3_Syntax",
 		"DocBlockr",
 		"Emmet",
 		"FileDiffs",
 		"Git",
 		"GitGutter",
+		"HTML Snippets",
 		"HTML-CSS-JS Prettify",
 		"HTML5",
 		"HTMLAttributes",
@@ -20,22 +21,20 @@
 		"JavaScript Snippets",
 		"jQuery",
 		"JsFormat",
-		"JSLint",
-		"LineJumper",
 		"Node Completions",
 		"Nodejs",
 		"Path Tools",
-		"PlainTasks",
 		"Predawn",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
-		"SublimeLinter",
-		"SublimeOnSaveBuild",
+		"SuperSelect",
 		"Surround",
 		"Tag",
 		"TernJS",
 		"Twitter Bootstrap Snippets",
+		"View In Browser",
 		"Vintage Escape",
-		"Vintage Surround"
+		"Vintage Surround",
+		"WordHighlight"
 	]
 }
