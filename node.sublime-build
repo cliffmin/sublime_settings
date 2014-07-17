@@ -1,5 +1,5 @@
 {
-  "cmd": ["node-dev", "$file", "$file_base_name"],
-  "working_dir": "${project_path:${folder}}",
-  "selector": "*.js"
+    "cmd": ["node", "$file"],
+    "selector" : "source.js",
+    "path" : "/usr/local/bin"
 }

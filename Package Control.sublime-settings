@@ -1,10 +1,12 @@
 {
 	"installed_packages":
 	[
+		"AlignTab",
 		"All Autocomplete",
 		"AngularJS",
+		"AngularJS Snippets",
+		"AngularZen",
 		"Auto Semi-Colon",
-		"AutoFileName",
 		"BracketHighlighter",
 		"Browser Refresh",
 		"CSS3_Syntax",
@@ -13,6 +15,7 @@
 		"FileDiffs",
 		"Git",
 		"GitGutter",
+		"HTML Mustache",
 		"HTML Snippets",
 		"HTML-CSS-JS Prettify",
 		"HTML5",
@@ -29,6 +32,7 @@
 		"SublimeCodeIntel",
 		"SuperSelect",
 		"Surround",
+		"SyncedSideBar",
 		"Tag",
 		"TernJS",
 		"Twitter Bootstrap Snippets",
