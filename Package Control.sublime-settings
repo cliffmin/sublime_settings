@@ -29,6 +29,7 @@
 		"Path Tools",
 		"Predawn",
 		"SideBarEnhancements",
+		"SideBarGit",
 		"SublimeCodeIntel",
 		"SuperSelect",
 		"Surround",
@@ -39,6 +40,7 @@
 		"View In Browser",
 		"Vintage Escape",
 		"Vintage Surround",
+		"Whitespace",
 		"WordHighlight"
 	]
 }
